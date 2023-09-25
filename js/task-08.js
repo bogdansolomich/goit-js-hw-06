@@ -15,5 +15,7 @@ function formSubmit(event) {
       [passwordInput.name]: passwordInput.value
     };
     console.log(loginFormData);
+
+      this.reset();
   }
 }
